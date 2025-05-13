@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/copilot-agent-presentation/static/css/main.e2380ac4.css",
+    "main.js": "/copilot-agent-presentation/static/js/main.59fe5e25.js",
+    "static/js/453.a01088c2.chunk.js": "/copilot-agent-presentation/static/js/453.a01088c2.chunk.js",
+    "index.html": "/copilot-agent-presentation/index.html",
+    "main.e2380ac4.css.map": "/copilot-agent-presentation/static/css/main.e2380ac4.css.map",
+    "main.59fe5e25.js.map": "/copilot-agent-presentation/static/js/main.59fe5e25.js.map",
+    "453.a01088c2.chunk.js.map": "/copilot-agent-presentation/static/js/453.a01088c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2380ac4.css",
+    "static/js/main.59fe5e25.js"
+  ]
+}
