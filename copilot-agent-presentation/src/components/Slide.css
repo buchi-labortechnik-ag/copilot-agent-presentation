@@ -1,0 +1,145 @@
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: #f0f2f5; /* Light grey background */
+  color: #333; /* Dark grey text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden; /* Prevent scrollbars during transitions */
+}
+
+.slide-content {
+  background-color: #ffffff; /* White content background */
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide h1 {
+  font-size: 2.8em;
+  color: #0078d4; /* VS Code Blue */
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.slide h2 {
+  font-size: 2.2em;
+  color: #1a1a1a; /* Slightly softer black */
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.slide .subtitle {
+  font-size: 1.3em;
+  color: #555;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.slide ul {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.slide ul li {
+  font-size: 1.1em;
+  color: #444;
+  margin-bottom: 12px;
+  line-height: 1.6;
+  padding-left: 25px;
+  position: relative;
+}
+
+.slide ul li::before {
+  content: '\2714'; /* Checkmark */
+  color: #0078d4; /* VS Code Blue */
+  position: absolute;
+  left: 0;
+  font-size: 1.1em;
+}
+
+.slide .columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.slide .column {
+  flex: 1;
+  background-color: #f9f9f9; /* Light background for columns */
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.slide .column h3 {
+  font-size: 1.4em;
+  color: #005a9e; /* Darker blue for column titles */
+  margin-bottom: 10px;
+}
+
+.slide .column ul li::before {
+  content: '\2023'; /* Triangle bullet */
+}
+
+.slide .step-by-step ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.slide .step-by-step li {
+  font-size: 1.1em;
+  color: #444;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.slide .key-takeaway {
+  font-size: 1.15em;
+  color: #0078d4;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e6f3ff;
+  border-left: 4px solid #0078d4;
+  border-radius: 4px;
+}
+
+.slide .call-to-action {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #107c10; /* Green for call to action */
+  margin-top: 25px;
+}
+
+.slide-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Specific slide styling if needed */
+.slide.title-slide h1 {
+  font-size: 3.5em;
+}
+
+.slide.title-slide .subtitle {
+  font-size: 1.5em;
+}
+
